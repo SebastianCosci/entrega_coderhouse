@@ -370,7 +370,7 @@ iframe{
   height: 50%;
   border-color: #BE9C3F;
   border: solid;
-  box-shadow: #BE9C3F 3px 3px 3px 3px;
+  box-shadow: #BE9C3F 5% 5% 5% 5%;
   margin-top: 10%;}
 
 /*parte de desarrollador*/
@@ -1159,8 +1159,8 @@ header nav ul li{
   height: 10px;}
 
 iframe{
-  width: 100px;
-  height: 100px;}
+  width: 80px;
+  height: 80px;}
 
 
 
