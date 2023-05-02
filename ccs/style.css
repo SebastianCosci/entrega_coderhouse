@@ -1090,7 +1090,8 @@ footer ul {
   justify-content: center;}
 
 .spanproductosindex{
-  font-size: 20px;}
+  font-size: 20px;
+  -webkit-text-stroke: 1gpx black;}
 
 
 .hacemospastas{
