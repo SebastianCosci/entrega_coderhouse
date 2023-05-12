@@ -1,0 +1,31 @@
+header {
+  background-color: #BE9C3F;
+  border: solid black 2px;
+  width: 99%;
+  position: fixed;
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 5px;
+  z-index: 4;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  gap: 10%;
+  padding-inline-start: 0px;
+}
+header nav ul li {
+  font-size: 30px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #324145;
+}
+header nav ul li a:hover {
+  color: #f4f0ea;
+}
+
+/*# sourceMappingURL=style.css.map */

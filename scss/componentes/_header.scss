@@ -1,0 +1,43 @@
+header{
+    background-color: $bc-yellow;
+    border: solid black 2px;
+    width: 99%;
+    position: fixed;
+    border-radius: $border-redondo;
+    box-shadow: 5px 5px 5px 5px;
+    z-index: 4;
+    nav{
+        ul{
+            list-style: none;;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            gap: 10%;
+            padding-inline-start: 0px;
+           li{
+            font-size: $font-m;
+              a{
+                text-decoration: none;
+                font-family: $family-treb;
+                color: $bc-green;
+                }
+                a:hover{
+                    color: $bc-white;
+                }
+            }
+        }
+    }
+}
+
+            
+                
+                
+               
+                
+
+            
+
+                 
+
+        
