@@ -3,7 +3,6 @@ footer{
     background-image: url(../assets/img/fondos/fondo-index-logo-grazie.png);
     font-family: $family-treb;
     color: $bc-yellow;
-    border-radius: 5% 5% 5% 5%;
         div{
             @include display (flex, row);
             justify-content: space-between;
@@ -29,8 +28,8 @@ footer{
                     list-style: none;
                     margin-top: $m3;
                     @include sizes (80%,80%);
-                    box-shadow:#BE9C3F 5px 5px 5px 5px;
-                    margin-top: 10%;
+                    box-shadow: $bc-yellow $box-sombra;
+                    margin-top: $m5;
                 }
             }
         }
@@ -52,14 +51,14 @@ footer{
 .direccion{
     @include display (flex,column);
     justify-content: space-evenly;
-    margin-top: 10%;}
+    margin-top: $m5;}
   
 .footerp{
-    background-color: #BE9C3F;
+    background-color: $bc-yellow;
     color: black;
-    font-size: 20px;
+    font-size: $font-m;
     @extend %bordesombra;
-    margin: 5% 5% 5% 5%;
+    margin:$box-sombra;
     text-align: center;
     padding-left: 10%;
     padding-right:10%;

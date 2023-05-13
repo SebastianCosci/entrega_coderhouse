@@ -1,0 +1,187 @@
+body{
+    margin: 0% 0% 0% 0%;}
+
+.mainindex{
+    background-image: url(../assets/img/fondos/fondo-index-logo-grazie.png);
+    background-size:cover;
+    @include sizes (100%,100%);
+    padding-bottom: $m1 ;}
+
+.div-imagen-grazie{
+  @extend %flex_centrado;
+  justify-content: center;}
+
+.imagen-grazie{
+  @include sizes (50%,1000px)}
+
+.botonhacetupedidodiv{
+  @include display (flex,row);
+  justify-content: center;}
+
+.mainruteoboton {
+  background-color: $bc-yellow;
+  border-radius: $border-redondo;
+  font-size: $font-m;
+  box-shadow: $box-sombra;
+  font-family: $family-treb;
+  padding: $m1 $m1 $m1 $m1;}
+
+.mainruteobotona{
+  color:$bc-green;
+  text-decoration: none;}
+
+.divwhatsapp{  
+  @include display (flex,row);
+  justify-content: left;}
+
+.whatsappboton{
+  border-radius: $border-redondo;
+  border-color: $bc-white;
+  border: $m1 $m1 $m1 $m1;
+  color: black;
+  background-color: $bc-yellow;
+  box-shadow: $box-sombra;}
+
+.maindivwhatsappbuttona{
+  text-decoration: none;
+  color: black;
+  font-family: $family-treb;
+  font-size: $font-b;}
+
+.logowhatsapp{
+  @include sizes (90px,90px);}
+
+.sectionnuestrasespecialidades{
+  background-image: url(../assets/img/fondos/fondo_index_2.png);
+  background-size: $bg-cover;}
+
+.divnuestrasespecialidades{
+  @extend %flex_centrado;}
+
+.nuestrasespecialidadesh1{  
+  background-color: $bc-green;
+  color: $bc-yellow;
+  padding: $m1 $m1 $m1 $m1;
+  border-radius: $border-redondo;
+  box-shadow: $box-sombra;
+  font-size: $font-b;
+  font-family: $family-treb;
+  }
+
+.prod1{
+  grid-area: tagl;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo-tagliatelle.png);
+  background-size: $bg-cover;}
+  
+.prod2{
+  grid-area: fettuc;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo_fetuccini.png);
+  background-size: $bg-cover;}
+  
+.prod3{
+  grid-area: sorren;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo-sorrento.png);
+  background-size: $bg-cover;}
+  
+.prod4{
+  grid-area: macch;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo_maccheroni.png);
+  background-size: $bg-cover;}
+  
+.prod5{
+  grid-area: gnoc;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo-noquis.png);
+  background-size: $bg-cover;}
+  
+.prod6{
+  grid-area: lasg;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo-lasagna.png);
+  background-size: $bg-cover;}
+  
+.prod7{
+  grid-area: raviol2;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo-ravioles.png);
+  background-size: $bg-cover;}
+  
+.prod8{
+  grid-area: cannel;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo_canelones.png);
+  background-size: $bg-cover;}
+  
+.prod9{
+  grid-area: raviol3;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo-raviolone.png);
+  background-size: $bg-cover;}
+  
+.prod10{
+  grid-area: fussil;
+  background-image: url(../assets/img/hace-tu-pedido-imagenes/fondo_fusilli.png);
+  background-size: $bg-cover;}
+
+.listasnuestrasespecialidades{
+  @include grid (grid, 20% 20% 20% 20% 20%, 25% 25%);
+  grid-template-areas:
+  "tagl lasg"
+  "fettuc raviol2"
+  "sorren cannel"
+  "macch raviol3"
+  "gnoc fussil";
+  column-gap: 10%;
+  justify-content: space-evenly;}
+  
+.productesp{
+  margin: $m5;
+  border-radius: $m4;
+  box-shadow: black $box-sombra;
+  align-items: center;
+  text-align: center;}
+
+.spanproductosindex{
+  font-family: $family-treb;
+  font-size: $font-b;
+  color: $bc-white;
+  -webkit-text-stroke: 2px black;}
+
+.hacemospastas{
+  font-family: $family-treb;
+  font-size: $font-m;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-block-end: 0;}
+
+.sectionhacerpastascomoencasa{
+  background-image: url(../assets/img/fondos/fideos-de-fondo.png);
+  background-size: $bg-cover;}
+
+.divpastascomoencasa{
+  @extend .divnuestrasespecialidades;}
+
+.hacerpastascomoencasah2{
+  font-family: $font-b;
+  font-size: $font-b;
+  color: $bc-green;}
+
+.divpcomoencasa{
+  @extend .divnuestrasespecialidades;
+  padding-top: 200px;
+  padding-bottom: 200px;}
+
+.pcomoencasa{
+  text-align: center;
+  color: $bc-green;
+  font-size: $font-b;
+  width: 50%;
+  font-family: $family-treb;
+  border: solid;
+  border-color: $bc-green;
+  box-shadow: $box-sombra ;
+  background-color: $bc-white;}
+
+
+  
+  
+
+
+
+
+
