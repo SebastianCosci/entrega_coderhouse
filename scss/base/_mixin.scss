@@ -1,0 +1,12 @@
+@mixin sizes($width, $height)
+{
+    width: $width;
+    height: $height;
+}
+
+@mixin display ($flex, $dir)
+{
+    display: $flex;
+    flex-direction: $dir;
+}
+
