@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .divnuestrasespecialidades, .divpcomoencasa, .divpastascomoencasa, .div-imagen-grazie {
   display: flex;
   justify-content: center;
@@ -603,6 +604,70 @@ body {
 .textoiniciarcompra {
   text-decoration: none;
   color: black;
+}
+
+.bodyreclamos {
+  background-image: url(../assets/img/fondos/fondo_hace_tu_pedido.png);
+}
+
+.sectionreclamo {
+  display: flex;
+  justify-content: end;
+}
+
+.margincarrito {
+  margin-top: 15%;
+}
+
+.importante-reclamo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.textoimportante {
+  font-family: "Enriqueta", sans-serif;
+  font-size: 20px;
+  color: #f4f0ea;
+}
+
+.formularioreclamo {
+  font-family: "Enriqueta", sans-serif;
+  color: #f4f0ea;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.fieldset2 {
+  border: none;
+  width: 70%;
+}
+
+.completardatos {
+  text-align: center;
+  text-decoration: underline double #BE9C3F;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+.formulariolabel {
+  text-decoration: underline #324145;
+  font-size: 30px;
+}
+
+.tamañoforminput {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1%;
+}
+
+.tamañoforminput2 {
+  width: 100%;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+.bodyreclamos{
+  background-image: url(../assets/img/fondos/fondo_hace_tu_pedido.png);}
+   
+.sectionreclamo{
+  display: flex;
+  justify-content: end;}
+  
+.margincarrito{
+  margin-top: 15%;}
+  
+.importante-reclamo{
+  @include display (flex, column);  
+  align-items: center;
+  margin-top: $m5;}
+  
+  
+.textoimportante{
+  font-family: $family-enriq ;
+  font-size: $font-legend;
+  color: $bc-white;}
+  
+  
+.formularioreclamo{
+  font-family: $family-enriq;
+  color: $bc-white;
+  font-size: $font-legend;
+  @include display (flex, column);
+  align-items: center;
+  margin-top: $m5;}
+  
+  
+.fieldset2{
+  border: none;
+  width: 70%;}
+  
+  
+.completardatos{
+  text-align: center;
+  text-decoration: underline double $bc-yellow;
+  font-size: $font-b;
+  margin-bottom: $m4;}
+  
+  
+.formulariolabel{
+  text-decoration: underline $bc-green;
+  font-size: $font-m;}
+  
+  
+.tamañoforminput{
+  width: 100%;
+  height: $font-m;
+  margin-bottom: $m1;}
+  
+.tamañoforminput2{
+  width: 100%;
+  height: 200px;}
