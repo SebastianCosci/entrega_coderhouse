@@ -1,0 +1,95 @@
+.bodyquienes-somos{
+  background-image: url(../assets/img/fondos/fondo-index-logo-grazie.png);}
+    
+  
+.grid-main{
+  @include grid (grid, 30% 70%, 30% 70%);
+  grid-template-areas: 
+  "imagen titulo"
+  "imagen parrafo";
+  margin-left: $m3;
+  margin-right: $m3;
+  padding-top: $m5;}
+  
+  
+.nosotrosh1{
+  color: $bc-yellow;
+  font-family: $family-treb;
+  text-align: center;
+  font-size: $font-b;
+  grid-area: titulo;}
+  
+  
+.parrafonostros{
+  text-align: justify;
+  color: $bc-yellow;
+  font-family: $family-treb;
+  font-size: $font-s;
+  grid-area: parrafo;
+  border-width: 5px;
+  border-style: solid;
+  border-color: $bc-yellow;
+  padding: 0% $m1 0% $m2;
+  margin-top: $m2;}
+  
+.imgparrafo{
+  width: 80%;
+  height: 80%;
+  grid-area: imagen;
+  align-self: center;}
+  
+.grid-section-fotos{
+  @include grid (grid, 100%, 20% 20% 20% 20%);
+  grid-template-areas:
+  "img1 img2 img3 img4";
+  justify-content: space-evenly;
+  margin-left: $m4;
+  margin-top: $m5;
+  margin-right: $m4;}
+  
+.imgdenosotros{
+  border: $bc-yellow solid 5px;
+  outline: solid 5px $bc-white;
+  width: 80%;
+  height: 100%;}
+  
+.img1{
+  grid-area: img1;}
+  
+.img2{
+  grid-area: img2;}
+    
+.img3{
+  grid-area: img3;}
+  
+.img4{
+  grid-area: img4;}
+    
+  
+.section2quienes{
+  margin-top: $m5;
+  @include display (flex, column);
+  align-items: center;
+  margin-bottom: $m5;}
+  
+  
+.trabnos{
+  font-family: $family-treb;
+  color: black;
+  font-size: $font-m;
+  text-decoration: underline black solid;}
+  
+.enviarcv{
+  color: $bc-yellow;
+  margin-top: $m1;
+  font-family: $family-treb;
+  font-size: $font-s;
+  text-decoration: none;}
+  
+.enviarcv:hover{
+  color: $bc-white;}
+  
+.imgmail{
+  @include sizes (50px, 50px);
+  margin-top: $m1;}
+  

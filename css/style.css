@@ -774,4 +774,113 @@ body {
   color: #324145;
 }
 
+.bodyquienes-somos {
+  background-image: url(../assets/img/fondos/fondo-index-logo-grazie.png);
+}
+
+.grid-main {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: "imagen titulo" "imagen parrafo";
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 10%;
+}
+
+.nosotrosh1 {
+  color: #BE9C3F;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  grid-area: titulo;
+}
+
+.parrafonostros {
+  text-align: justify;
+  color: #BE9C3F;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  grid-area: parrafo;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #BE9C3F;
+  padding: 0% 1% 0% 2%;
+  margin-top: 2%;
+}
+
+.imgparrafo {
+  width: 80%;
+  height: 80%;
+  grid-area: imagen;
+  align-self: center;
+}
+
+.grid-section-fotos {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-areas: "img1 img2 img3 img4";
+  justify-content: space-evenly;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+
+.imgdenosotros {
+  border: #BE9C3F solid 5px;
+  outline: solid 5px #f4f0ea;
+  width: 80%;
+  height: 100%;
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.section2quienes {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.trabnos {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+  text-decoration: underline black solid;
+}
+
+.enviarcv {
+  color: #BE9C3F;
+  margin-top: 1%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.enviarcv:hover {
+  color: #f4f0ea;
+}
+
+.imgmail {
+  width: 50px;
+  height: 50px;
+  margin-top: 1%;
+}
+
 /*# sourceMappingURL=style.css.map */
