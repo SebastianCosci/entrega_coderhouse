@@ -1,0 +1,53 @@
+#bodyhacetupedido{
+  background-image: url(../assets/img/fondos/fondo_hace_tu_pedido.png);
+  background-size: $bg-cover;}
+
+.main-hace-tu-pedido{
+  padding-top: $m4;}
+
+.search{
+  width: 99%;
+  border: solid #324145;}
+
+.botoninicio{
+  @include display (flex,column);
+  align-items: end;
+  margin-top: 2%;}
+
+.volverainiciobuton{
+  background-color: $bc-yellow;
+  border: none;
+  border-radius: $m5;
+  margin-bottom: $m1;
+  box-shadow: $box-shadow2;}
+
+.avolverainiciobuton{
+  text-decoration: none;
+  color: #f4f0ea;
+  font-family: $family-treb;
+  font-size: $font-s;}
+
+.avolverainiciobuton:hover{
+  color: $bc-green;}
+
+.vercarrito{
+  background-color: $bc-green;
+  padding: $box-shadow2;
+  border: solid #f4f0ea;
+  box-shadow: 2px 2px 2px 2px;
+  border-radius: 2%;
+  margin-right: 0.1%;
+  position: fixed;
+  margin-top: 2%;
+  z-index: 4;}
+
+
+
+
+
+
+
+  
+
+
+  

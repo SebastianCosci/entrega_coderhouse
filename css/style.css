@@ -321,4 +321,56 @@ body {
   background-color: #f4f0ea;
 }
 
+#bodyhacetupedido {
+  background-image: url(../assets/img/fondos/fondo_hace_tu_pedido.png);
+  background-size: cover;
+}
+
+.main-hace-tu-pedido {
+  padding-top: 5%;
+}
+
+.search {
+  width: 99%;
+  border: solid #324145;
+}
+
+.botoninicio {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 2%;
+}
+
+.volverainiciobuton {
+  background-color: #BE9C3F;
+  border: none;
+  border-radius: 10%;
+  margin-bottom: 1%;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.avolverainiciobuton {
+  text-decoration: none;
+  color: #f4f0ea;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.avolverainiciobuton:hover {
+  color: #324145;
+}
+
+.vercarrito {
+  background-color: #324145;
+  padding: 2px 2px 2px 2px;
+  border: solid #f4f0ea;
+  box-shadow: 2px 2px 2px 2px;
+  border-radius: 2%;
+  margin-right: 0.1%;
+  position: fixed;
+  margin-top: 2%;
+  z-index: 4;
+}
+
 /*# sourceMappingURL=style.css.map */
