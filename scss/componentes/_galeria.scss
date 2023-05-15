@@ -1,0 +1,101 @@
+.bodygaleria{
+  background-image: url(../assets/img/fondos/fondo-index-logo-grazie.png);}
+  
+.arteh1{
+  font-family: $family-treb;
+  font-size: $font-b;
+  color: $bc-yellow;
+  padding-top: 15%;
+  text-align: center;
+  margin-bottom: 8%;
+  text-decoration: underline solid $bc-white;
+  font-size: $font-xb;}
+  
+  
+.grid-armado{
+  @include grid (grid, 25% 20% 35%, 20% 25% 20%);
+  grid-template-areas:
+  "postres ravio tartas"
+  "postres grazielocal tartas"
+  "cristian grazielocal fabio";
+  row-gap: 2%;
+  column-gap: 2%;
+  justify-content: center;}
+    
+  
+.postres{
+  grid-area: postres;}
+  
+.raviolonesart{
+  grid-area: ravio;}
+  
+.tartas{
+  grid-area: tartas;}
+  
+.cristian{
+  grid-area: cristian;}
+  
+.fabio{
+  grid-area: fabio;}
+  
+.grazielocal{
+  grid-area: grazielocal;}
+  
+  
+.imggaleria{
+  width: 100%;
+  height: 80%;}
+  
+  
+.parrafogaleria{
+  font-family: $family-enriq;
+  font-size: $font-s;
+  color: $bc-yellow;
+  text-align: center;}
+  
+  
+.bordegaleria{
+  border: $bc-yellow solid 5px;
+  outline: solid 5px $bc-white;
+  background-color: $bc-white;}
+  
+.grid-mediospago{
+  margin-left: $m4;
+  margin-right: $m4;
+  margin-bottom: $m5;}
+  
+  
+  
+.imgmediospago{
+  width:12%;
+  height:100px;
+  margin-left: $m2;
+  margin-right: $m2;}
+  
+  
+.footergaleria{
+  margin: $m2 $m2 $m2 $m2;
+  border: $bc-yellow solid ;
+  border: $box-sombra;
+  border-radius: $m2;}
+  
+  
+.centrarbotonfotos{
+  @extend .botonhacetupedidodiv;}
+  
+  
+.butonverfotos{
+  background-color: $bc-yellow;
+  justify-self: center;
+  border-radius: $m4;}
+  
+.butonverfotos:hover{
+  background-color: $bc-white;}
+  
+  
+.ancorefotos{
+  font-family: $family-enriq;
+  font-weight: bold;
+  font-size: $font-m;
+  color: $bc-green;}
+  

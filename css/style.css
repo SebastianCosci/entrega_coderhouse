@@ -140,7 +140,7 @@ body {
   height: 1000px;
 }
 
-.botonhacetupedidodiv, .sectioninicicarcompra, .centrah1-hacetupedido {
+.botonhacetupedidodiv, .centrarbotonfotos, .sectioninicicarcompra, .centrah1-hacetupedido {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -668,6 +668,110 @@ body {
 .tamañoforminput2 {
   width: 100%;
   height: 200px;
+}
+
+.bodygaleria {
+  background-image: url(../assets/img/fondos/fondo-index-logo-grazie.png);
+}
+
+.arteh1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  color: #BE9C3F;
+  padding-top: 15%;
+  text-align: center;
+  margin-bottom: 8%;
+  text-decoration: underline solid #f4f0ea;
+  font-size: 75px;
+}
+
+.grid-armado {
+  display: grid;
+  grid-template-rows: 25% 20% 35%;
+  grid-template-columns: 20% 25% 20%;
+  grid-template-areas: "postres ravio tartas" "postres grazielocal tartas" "cristian grazielocal fabio";
+  row-gap: 2%;
+  column-gap: 2%;
+  justify-content: center;
+}
+
+.postres {
+  grid-area: postres;
+}
+
+.raviolonesart {
+  grid-area: ravio;
+}
+
+.tartas {
+  grid-area: tartas;
+}
+
+.cristian {
+  grid-area: cristian;
+}
+
+.fabio {
+  grid-area: fabio;
+}
+
+.grazielocal {
+  grid-area: grazielocal;
+}
+
+.imggaleria {
+  width: 100%;
+  height: 80%;
+}
+
+.parrafogaleria {
+  font-family: "Enriqueta", sans-serif;
+  font-size: 15px;
+  color: #BE9C3F;
+  text-align: center;
+}
+
+.bordegaleria {
+  border: #BE9C3F solid 5px;
+  outline: solid 5px #f4f0ea;
+  background-color: #f4f0ea;
+}
+
+.grid-mediospago {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.imgmediospago {
+  width: 12%;
+  height: 100px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.footergaleria {
+  margin: 2% 2% 2% 2%;
+  border: #BE9C3F solid;
+  border: 5px 5px 5px 5px;
+  border-radius: 2%;
+}
+
+.butonverfotos {
+  background-color: #BE9C3F;
+  justify-self: center;
+  border-radius: 5%;
+}
+
+.butonverfotos:hover {
+  background-color: #f4f0ea;
+}
+
+.ancorefotos {
+  font-family: "Enriqueta", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #324145;
 }
 
 /*# sourceMappingURL=style.css.map */
