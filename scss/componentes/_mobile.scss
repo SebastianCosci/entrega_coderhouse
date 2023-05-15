@@ -1,0 +1,247 @@
+@media (max-width: 480px) {
+
+    
+/***footer***/ 
+
+footer div div h5{
+  font-size: $font-mobile-b;}
+    
+.li_seguinos_en_nuestras_redes{
+  font-size: $font-mobile-b;}
+    
+.flexiframe{
+  display: flex;
+  justify-content: end;
+  margin-right: $m5;}
+
+.spanfooter{
+  font-size: $font-mobile-b;}
+      
+.imagen_footer{
+  @include sizes (10px, 10px);}
+      
+footer div div iframe{
+  @include sizes (80px, 80px);
+  box-shadow: $box-shadow-mobile;
+  border-color: $bc-yellow solid 5px;}
+
+footer ul {
+  padding-inline-start: $m2;}
+      
+.footerp{
+  font-size: $font-xs;
+  border-width: 2px;}
+      
+.desarrolladopor{
+  font-size: $font-mobile-b;}
+   
+/**index**/
+  
+.imagen-grazie{
+  @include sizes (75%, 100%);}
+     
+    
+.botonhacetupedidodiv{
+  padding: 0.5% 0.5% 0.5% 0.5%;}
+    
+.mainruteobotona{
+  font-size: $font-mobile-c;}
+    
+.divwhatsapp{
+  margin-bottom: $m2;}
+
+.whatsappboton{
+  padding: 0.1% 0.1% 0.1% 0.1%;}
+
+.logowhatsapp{
+  @include sizes (20px, 20px);}
+    
+    
+.nuestrasespecialidadesh1{
+  font-size: $font-m;}
+    
+.listasnuestrasespecialidades{
+  @include grid (grid, 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%, 50%);
+  grid-template-areas:
+  "tagl"
+  "lasg"
+  "fettuc"
+  "raviol2"
+  "sorren"
+  "cannel"
+  "macch"
+  "raviol3"
+  "gnoc"
+  "fussil";
+  justify-content: center;}
+    
+.spanproductosindex{
+  font-size: $font-m;
+  -webkit-text-stroke: $m1 black;}
+    
+    
+.hacemospastas{
+  font-size: 15px;}
+    
+    
+.hacerpastascomoencasah2{
+  font-size: $font-m;}
+    
+.divpcomoencasa{
+  $padding-top: $m2;}
+    
+.pcomoencasa{
+  font-size: $font-s;}
+       
+/***header***/
+
+
+header nav ul li{
+  font-size: $font-mobile-ab;}
+    
+/***reclamos***/
+
+.letrascarrito{
+  font-size: $font-mobile-b;}
+    
+.imgreclamocarrito{
+  @include sizes (10px, 10px);}
+    
+.h1-hace-tu-pedido{
+  font-size: $font-mobile-xl;}
+    
+.textoimportante{
+  font-size: $font-mobile-c;
+  margin: 0% 20% 0% 20%;
+  text-align: justify;}
+    
+.vercarrito{
+  box-shadow: $box-shadow-mobile;}
+    
+.completardatos{
+  font-size: $font-mobile-l;}
+    
+.formulariolabel{
+  font-size: $font-mobile-c;}
+    
+.tamañoforminput{
+  height:20px;}
+    
+.tamañoforminput2{
+  height: 60px;}
+    
+.max300{
+  font-size: $font-mobile-b;}
+    
+.iniciarcomprabuton{
+  font-size: $font-mobile-l;} 
+  
+/***hace-tu-pedido***/
+
+.main-hace-tu-pedido{
+    padding-top: 10%;}
+
+.search{
+  font-size: $font-mobile-ab;}
+
+.volverainiciobuton{
+  font-size: $font-mobile-ab;}
+
+.vercarrito{
+    margin-top: 8%;}
+
+.imagen-gnochi{
+  @include sizes (100%,150px);}
+      
+.h3product{
+  font-size: $font-mobile-l;}
+      
+.formproducto{
+  height: 50px;}
+      
+      
+.nuestraspastassector{
+  @include grid (grid, 350px 350px 350px 350px 350px, 50% 50%);
+  grid-template-areas:
+  "tagliatele ravioli"
+  "raviolone gnocchi" 
+  "sorrentinos canelloni"
+  "macarons maccheronni"
+  "fetuccine lasagna";
+  justify-content:space-evenly;
+  height: 2300px;
+  margin-left: 5%;}
+      
+              
+      
+.selector{
+   font-size: $font-mobile-c;}
+      
+        
+.tipodemasa{
+  font-size: $font-xs;}
+      
+      
+.agregarcarrito{
+  font-size: $font-mobile-c;}
+      
+.legend{
+  -webkit-text-stroke: 0.2px;
+  margin-bottom: $m2;
+  font-size: $font-mobile-c;}
+      
+      
+.inputhacetupedido{
+  font-size: $font-xs;}
+      
+      .nuestrassalsassector{
+        @include grid (grid, 400px, 20% 20% 20% 20% 20%);
+        grid-template-areas:
+        "scarparo tuco rosa pesto bolognesa";
+        justify-content:space-evenly;
+        height: 650px;}
+      
+      .cantidad2{
+        margin-bottom: $m5;}
+      
+      .scarparoprod{
+        grid-area: scarparo;}
+        
+      .tucoprod{
+        grid-area: tuco;}
+        
+      .rosaprod{
+        grid-area: rosa;}
+        
+      .pestoprod{
+        grid-area: pesto;}
+        
+      .bolognesaprod{
+        grid-area: bolognesa;}
+        
+      
+      .sectioninicicarcompra{
+        @extend .botonhacetupedidodiv;
+        margin-top: $m5;}
+        
+        
+      .iniciarcomprabuton{
+        background-color: $bc-yellow;
+        border-radius: $m2;
+        box-shadow: $box-shadow2;
+        font-size: $font-m;
+        font-family: $family-treb;
+        margin-bottom: $m1;}
+        
+      .iniciarcomprabuton:hover{
+        background-color: $bc-green;}
+        
+        
+      .textoiniciarcompra{
+        text-decoration: none;
+        color: black;}
+        
+
+    
+    
+    }
