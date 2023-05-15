@@ -32,14 +32,220 @@
 
 .vercarrito{
   background-color: $bc-green;
-  padding: $box-shadow2;
-  border: solid #f4f0ea;
-  box-shadow: 2px 2px 2px 2px;
-  border-radius: 2%;
+  padding: 2% 2% 2% 2%;
+  border: solid $bc-white;
+  box-shadow: 5% 5% 5% 5%;
+  border-radius: $m2;
   margin-right: 0.1%;
   position: fixed;
-  margin-top: 2%;
+  margin-top: $m2;
   z-index: 4;}
+
+.letrascarrito{
+  text-decoration: none;
+  color: $bc-white;
+  font-family: $font-s;
+  font-size: $font-s;}
+
+.letrascarrito:hover{
+  color: black;}
+  
+.centrah1-hacetupedido{
+  @extend .botonhacetupedidodiv;}
+
+.h1-hace-tu-pedido{
+  font-size: $font-xb;
+  font-family: $family-enriq;
+  color: $bc-white;
+  line-height: 180%;
+  -webkit-font-smoothing: antialiased;
+  text-decoration-line: underline;
+  text-decoration-color: $bc-yellow;}
+
+.imagen-gnochi{
+  @include sizes (100%,200px);}
+
+.h3product{
+  font-size: $font-m;
+  text-align: center;
+  grid-area: titulopasta;}
+
+.cantidad{
+  justify-self: start;
+  border: 0px;
+  grid-area: cantrelleno;}
+  
+.formproducto{
+  height: 110px;
+  grid-area: cantidadkg;}
+
+.gnocchiproducto{
+  grid-area: gnocchi;}
+  
+.tagliateleproducto{
+  grid-area: tagliatele;}
+  
+.sorrentinosproducto{
+  grid-area: sorrentinos;}
+  
+.lasagnaproducto{
+  grid-area: lasagna;}
+  
+.canelloniproducto{
+  grid-area: canelloni;}
+  
+.ravioliproducto{
+  grid-area: ravioli;}
+  
+.ravioloneproducto{
+  grid-area: raviolone;}
+  
+.macaronsproducto{
+  grid-area: macarons;}
+  
+.mostacholesproducto{
+  grid-area: maccheronni;}
+  
+.fetuccineproducto{
+  grid-area: fetuccine;}
+
+.card-body1{
+  @include grid (grid, 15% 35% 20% 30%, 100%,);
+  grid-template-areas: 
+  "titulopasta"
+  "cantidadkg"
+  "cantrelleno"
+  "botonagregar";}
+
+.nuestraspastassector{
+  @include grid (grid, 500px 500px, 20% 20% 20% 20% 20%);
+  grid-template-areas:
+  "tagliatele ravioli raviolone gnocchi sorrentinos"
+  "canelloni macarons maccheronni fetuccine lasagna";
+  row-gap: 5%;
+  justify-content:space-evenly;
+  height: 1200px;
+  margin-left: 2%;}
+
+.inputhacetupedido{
+  font-family: $family-enriq;}
+  
+  
+.inputhacetupedido:hover{
+  background-color: $bc-yellow;
+  opacity: $m1;}
+
+.selector{
+  color: $bc-green;
+  background-color: $bc-yellow;
+  font-family: $family-treb;}
+
+.tamprodcaja{
+  width: 85%;}
+  
+.tipodemasa{
+  justify-self: center;
+  border:0px;
+  font-size: $font-s;}
+
+.centraragregarcarrito{
+  display: flex;
+  justify-content: center;
+  grid-area: botonagregar;}
+
+.agregarcarrito{
+  font-family: $family-treb;
+  font-size: $font-legend;
+  color: $bc-white;
+  background-color: $bc-green;
+  height: 50%;
+  justify-self: center;
+  align-self: end;
+  border-radius: $m4;}
+
+.agregarcarrito:hover{
+  color: 20px #f4f0ea;
+  box-shadow: 0 0 20px #324145;
+  box-shadow: 0 0 50px #324145;
+  box-shadow: 0 0 85px #324145;
+  box-shadow: 0 0 125px #324145;}
+
+.legend{
+  font-size: $font-legend;
+  color: $bc-green;
+  font-family: $family-treb;
+  justify-self: center;
+  -webkit-text-stroke: black 0.5px;
+  text-decoration-line: underline;
+  text-decoration-color: $bc-green;
+  margin-bottom: $m4;}
+
+.fieldset{
+  border: 0;}
+
+.separarh2{
+  margin-top: $m2;}
+
+.inputhacetupedido{
+  color: $bc-green;
+  font-family: $family-treb;
+  font-size: $font-xs;}
+
+.nuestrassalsassector{
+  @include grid (grid, 400px, 20% 20% 20% 20% 20%);
+  grid-template-areas:
+  "scarparo tuco rosa pesto bolognesa";
+  justify-content:space-evenly;
+  height: 650px;
+  margin-left: $m2;}
+
+.cantidad2{
+  margin-bottom: $m5;}
+
+.scarparoprod{
+  grid-area: scarparo;}
+  
+.tucoprod{
+  grid-area: tuco;}
+  
+.rosaprod{
+  grid-area: rosa;}
+  
+.pestoprod{
+  grid-area: pesto;}
+  
+.bolognesaprod{
+  grid-area: bolognesa;}
+  
+
+.sectioninicicarcompra{
+  @extend .botonhacetupedidodiv;
+  margin-top: $m5;}
+  
+  
+.iniciarcomprabuton{
+  background-color: $bc-yellow;
+  border-radius: $m2;
+  box-shadow: $box-shadow2;
+  font-size: $font-m;
+  font-family: $family-treb;
+  margin-bottom: $m1;}
+  
+.iniciarcomprabuton:hover{
+  background-color: $bc-green;}
+  
+  
+.textoiniciarcompra{
+  text-decoration: none;
+  color: black;}
+  
+
+  
+  
+  
+  
+  
+  
 
 
 

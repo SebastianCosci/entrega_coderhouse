@@ -139,7 +139,7 @@ body {
   height: 1000px;
 }
 
-.botonhacetupedidodiv {
+.botonhacetupedidodiv, .sectioninicicarcompra, .centrah1-hacetupedido {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -363,14 +363,246 @@ body {
 
 .vercarrito {
   background-color: #324145;
-  padding: 2px 2px 2px 2px;
+  padding: 2% 2% 2% 2%;
   border: solid #f4f0ea;
-  box-shadow: 2px 2px 2px 2px;
+  box-shadow: 5% 5% 5% 5%;
   border-radius: 2%;
   margin-right: 0.1%;
   position: fixed;
   margin-top: 2%;
   z-index: 4;
+}
+
+.letrascarrito {
+  text-decoration: none;
+  color: #f4f0ea;
+  font-family: 15px;
+  font-size: 15px;
+}
+
+.letrascarrito:hover {
+  color: black;
+}
+
+.h1-hace-tu-pedido {
+  font-size: 75px;
+  font-family: "Enriqueta", sans-serif;
+  color: #f4f0ea;
+  line-height: 180%;
+  -webkit-font-smoothing: antialiased;
+  text-decoration-line: underline;
+  text-decoration-color: #BE9C3F;
+}
+
+.imagen-gnochi {
+  width: 100%;
+  height: 200px;
+}
+
+.h3product {
+  font-size: 30px;
+  text-align: center;
+  grid-area: titulopasta;
+}
+
+.cantidad {
+  justify-self: start;
+  border: 0px;
+  grid-area: cantrelleno;
+}
+
+.formproducto {
+  height: 110px;
+  grid-area: cantidadkg;
+}
+
+.gnocchiproducto {
+  grid-area: gnocchi;
+}
+
+.tagliateleproducto {
+  grid-area: tagliatele;
+}
+
+.sorrentinosproducto {
+  grid-area: sorrentinos;
+}
+
+.lasagnaproducto {
+  grid-area: lasagna;
+}
+
+.canelloniproducto {
+  grid-area: canelloni;
+}
+
+.ravioliproducto {
+  grid-area: ravioli;
+}
+
+.ravioloneproducto {
+  grid-area: raviolone;
+}
+
+.macaronsproducto {
+  grid-area: macarons;
+}
+
+.mostacholesproducto {
+  grid-area: maccheronni;
+}
+
+.fetuccineproducto {
+  grid-area: fetuccine;
+}
+
+.card-body1 {
+  display: grid;
+  grid-template-rows: 15% 35% 20% 30%;
+  grid-template-columns: 100%;
+  grid-template-areas: "titulopasta" "cantidadkg" "cantrelleno" "botonagregar";
+}
+
+.nuestraspastassector {
+  display: grid;
+  grid-template-rows: 500px 500px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-areas: "tagliatele ravioli raviolone gnocchi sorrentinos" "canelloni macarons maccheronni fetuccine lasagna";
+  row-gap: 5%;
+  justify-content: space-evenly;
+  height: 1200px;
+  margin-left: 2%;
+}
+
+.inputhacetupedido {
+  font-family: "Enriqueta", sans-serif;
+}
+
+.inputhacetupedido:hover {
+  background-color: #BE9C3F;
+  opacity: 1%;
+}
+
+.selector {
+  color: #324145;
+  background-color: #BE9C3F;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.tamprodcaja {
+  width: 85%;
+}
+
+.tipodemasa {
+  justify-self: center;
+  border: 0px;
+  font-size: 15px;
+}
+
+.centraragregarcarrito {
+  display: flex;
+  justify-content: center;
+  grid-area: botonagregar;
+}
+
+.agregarcarrito {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  color: #f4f0ea;
+  background-color: #324145;
+  height: 50%;
+  justify-self: center;
+  align-self: end;
+  border-radius: 5%;
+}
+
+.agregarcarrito:hover {
+  color: 20px #f4f0ea;
+  box-shadow: 0 0 20px #324145;
+  box-shadow: 0 0 50px #324145;
+  box-shadow: 0 0 85px #324145;
+  box-shadow: 0 0 125px #324145;
+}
+
+.legend {
+  font-size: 20px;
+  color: #324145;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  justify-self: center;
+  -webkit-text-stroke: black 0.5px;
+  text-decoration-line: underline;
+  text-decoration-color: #324145;
+  margin-bottom: 5%;
+}
+
+.fieldset {
+  border: 0;
+}
+
+.separarh2 {
+  margin-top: 2%;
+}
+
+.inputhacetupedido {
+  color: #324145;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 10px;
+}
+
+.nuestrassalsassector {
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-areas: "scarparo tuco rosa pesto bolognesa";
+  justify-content: space-evenly;
+  height: 650px;
+  margin-left: 2%;
+}
+
+.cantidad2 {
+  margin-bottom: 10%;
+}
+
+.scarparoprod {
+  grid-area: scarparo;
+}
+
+.tucoprod {
+  grid-area: tuco;
+}
+
+.rosaprod {
+  grid-area: rosa;
+}
+
+.pestoprod {
+  grid-area: pesto;
+}
+
+.bolognesaprod {
+  grid-area: bolognesa;
+}
+
+.sectioninicicarcompra {
+  margin-top: 10%;
+}
+
+.iniciarcomprabuton {
+  background-color: #BE9C3F;
+  border-radius: 2%;
+  box-shadow: 2px 2px 2px 2px;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 1%;
+}
+
+.iniciarcomprabuton:hover {
+  background-color: #324145;
+}
+
+.textoiniciarcompra {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
