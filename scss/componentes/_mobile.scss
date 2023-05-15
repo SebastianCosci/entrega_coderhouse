@@ -95,9 +95,11 @@ footer ul {
        
 /***header***/
 
+header{
+    align-items: center;}
 
 header nav ul li{
-  font-size: $font-mobile-ab;}
+  font-size: $font-xs;}
     
 /***reclamos***/
 
@@ -148,20 +150,17 @@ header nav ul li{
   font-size: $font-mobile-ab;}
 
 .vercarrito{
-    margin-top: 8%;}
+    margin-top: 15%;}
 
 .imagen-gnochi{
-  @include sizes (100%,150px);}
+  @include sizes (100%, 130px);}
       
 .h3product{
   font-size: $font-mobile-l;}
       
-.formproducto{
-  height: 50px;}
-      
       
 .nuestraspastassector{
-  @include grid (grid, 350px 350px 350px 350px 350px, 50% 50%);
+  @include grid (grid, 400px 400px 400px 400px 400px, 50% 50%);
   grid-template-areas:
   "tagliatele ravioli"
   "raviolone gnocchi" 
@@ -169,8 +168,10 @@ header nav ul li{
   "macarons maccheronni"
   "fetuccine lasagna";
   justify-content:space-evenly;
-  height: 2300px;
-  margin-left: 5%;}
+  height: 2500px;
+  margin-left: 5%;
+  row-gap: 5%;
+  margin-bottom: 30%;}
       
               
       
@@ -192,55 +193,21 @@ header nav ul li{
       
       
 .inputhacetupedido{
-  font-size: $font-xs;}
+  font-size: 9px;}
       
-      .nuestrassalsassector{
-        @include grid (grid, 400px, 20% 20% 20% 20% 20%);
-        grid-template-areas:
-        "scarparo tuco rosa pesto bolognesa";
-        justify-content:space-evenly;
-        height: 650px;}
+.nuestrassalsassector{
+  @include grid (grid, 300px 300px 300px, 50% 50%);
+  grid-template-areas:
+  "scarparo tuco"
+  "rosa pesto" 
+  "bolognesa none";
+  height: 1200px;
+  row-gap: 5%;
+  margin-left: 5%;}
       
-      .cantidad2{
-        margin-bottom: $m5;}
-      
-      .scarparoprod{
-        grid-area: scarparo;}
-        
-      .tucoprod{
-        grid-area: tuco;}
-        
-      .rosaprod{
-        grid-area: rosa;}
-        
-      .pestoprod{
-        grid-area: pesto;}
-        
-      .bolognesaprod{
-        grid-area: bolognesa;}
-        
-      
-      .sectioninicicarcompra{
-        @extend .botonhacetupedidodiv;
-        margin-top: $m5;}
-        
-        
-      .iniciarcomprabuton{
-        background-color: $bc-yellow;
-        border-radius: $m2;
-        box-shadow: $box-shadow2;
-        font-size: $font-m;
-        font-family: $family-treb;
-        margin-bottom: $m1;}
-        
-      .iniciarcomprabuton:hover{
-        background-color: $bc-green;}
-        
-        
-      .textoiniciarcompra{
-        text-decoration: none;
-        color: black;}
-        
+          
+.iniciarcomprabuton{
+  font-size: $font-mobile-l;}
 
     
     

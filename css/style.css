@@ -959,8 +959,11 @@ body {
     font-size: 15px;
   }
   /***header***/
+  header {
+    align-items: center;
+  }
   header nav ul li {
-    font-size: 12px;
+    font-size: 10px;
   }
   /***reclamos***/
   .letrascarrito {
@@ -971,7 +974,7 @@ body {
     height: 10px;
   }
   .h1-hace-tu-pedido {
-    font-size: 26px;
+    font-size: 26pxgit;
   }
   .textoimportante {
     font-size: 14px;
@@ -1010,26 +1013,25 @@ body {
     font-size: 12px;
   }
   .vercarrito {
-    margin-top: 8%;
+    margin-top: 15%;
   }
   .imagen-gnochi {
     width: 100%;
-    height: 150px;
+    height: 130px;
   }
   .h3product {
     font-size: 20px;
   }
-  .formproducto {
-    height: 50px;
-  }
   .nuestraspastassector {
     display: grid;
-    grid-template-rows: 350px 350px 350px 350px 350px;
+    grid-template-rows: 400px 400px 400px 400px 400px;
     grid-template-columns: 50% 50%;
     grid-template-areas: "tagliatele ravioli" "raviolone gnocchi" "sorrentinos canelloni" "macarons maccheronni" "fetuccine lasagna";
     justify-content: space-evenly;
-    height: 2300px;
+    height: 2500px;
     margin-left: 5%;
+    row-gap: 5%;
+    margin-bottom: 30%;
   }
   .selector {
     font-size: 14px;
@@ -1046,51 +1048,19 @@ body {
     font-size: 14px;
   }
   .inputhacetupedido {
-    font-size: 10px;
+    font-size: 9px;
   }
   .nuestrassalsassector {
     display: grid;
-    grid-template-rows: 400px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-areas: "scarparo tuco rosa pesto bolognesa";
-    justify-content: space-evenly;
-    height: 650px;
-  }
-  .cantidad2 {
-    margin-bottom: 10%;
-  }
-  .scarparoprod {
-    grid-area: scarparo;
-  }
-  .tucoprod {
-    grid-area: tuco;
-  }
-  .rosaprod {
-    grid-area: rosa;
-  }
-  .pestoprod {
-    grid-area: pesto;
-  }
-  .bolognesaprod {
-    grid-area: bolognesa;
-  }
-  .sectioninicicarcompra {
-    margin-top: 10%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "scarparo tuco" "rosa pesto" "bolognesa none";
+    height: 1200px;
+    row-gap: 5%;
+    margin-left: 5%;
   }
   .iniciarcomprabuton {
-    background-color: #BE9C3F;
-    border-radius: 2%;
-    box-shadow: 2px 2px 2px 2px;
-    font-size: 30px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    margin-bottom: 1%;
-  }
-  .iniciarcomprabuton:hover {
-    background-color: #324145;
-  }
-  .textoiniciarcompra {
-    text-decoration: none;
-    color: black;
+    font-size: 20px;
   }
 }
 
