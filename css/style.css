@@ -671,7 +671,6 @@ body {
 
 .arteh1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 50px;
   color: #BE9C3F;
   padding-top: 15%;
   text-align: center;
@@ -974,7 +973,7 @@ body {
     height: 10px;
   }
   .h1-hace-tu-pedido {
-    font-size: 26pxgit;
+    font-size: 26px;
   }
   .textoimportante {
     font-size: 14px;
@@ -1061,6 +1060,62 @@ body {
   }
   .iniciarcomprabuton {
     font-size: 20px;
+  }
+  .grid-armado {
+    display: grid;
+    grid-template-rows: 15% 15% 15% 15% 15% 15%;
+    grid-template-columns: 80%;
+    grid-template-areas: "postres" "ravio" "tartas" "grazielocal" "cristian" "fabio";
+    row-gap: 2%;
+    justify-content: center;
+  }
+  .imggaleria {
+    width: 100%;
+    height: 80%;
+  }
+  .parrafogaleria {
+    font-size: 14px;
+  }
+  .imgmediospago {
+    width: 20%;
+    height: 50%;
+  }
+  .centrarbotonfotos {
+    margin-top: 10%;
+  }
+  .ancorefotos {
+    font-size: 14px;
+  }
+  .arteh1 {
+    font-size: 26px;
+  }
+  /***quienessomos***/
+  .grid-main {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 30% 70%;
+  }
+  .nosotrosh1 {
+    font-size: 26px;
+  }
+  .parrafonostros {
+    font-size: 14px;
+  }
+  .imgparrafo {
+    width: 100%;
+    height: 60%;
+    grid-area: imagen;
+    align-self: center;
+  }
+  .trabnos {
+    font-size: 14px;
+  }
+  .enviarcv {
+    font-size: 8px;
+  }
+  .imgmail {
+    width: 20px;
+    height: 20px;
   }
 }
 

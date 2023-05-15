@@ -210,5 +210,73 @@ header nav ul li{
   font-size: $font-mobile-l;}
 
     
+.grid-armado{
+  @include grid (grid, 15% 15% 15% 15% 15% 15%, 80%);
+  grid-template-areas:
+  "postres" 
+  "ravio" 
+  "tartas"
+  "grazielocal"
+  "cristian"
+  "fabio";
+  row-gap: 2%;
+  justify-content: center;}
+       
+.imggaleria{
+  width: 100%;
+  height: 80%;}
+  
+  
+.parrafogaleria{
+  font-size: $font-mobile-c;}
+  
+  
+.imgmediospago{
+  width:20%;
+  height:50%;}
+
+.centrarbotonfotos{
+  margin-top: $m5;}
+  
+.ancorefotos{
+  font-size: $font-mobile-c;}
+
+.arteh1{
+  font-size: $font-mobile-xl;}
+
+/***quienessomos***/
+
+.grid-main{
+@include grid (grid, 20% 80%, 30% 70%);}
+  
+  
+.nosotrosh1{
+  font-size: $font-mobile-xl;}
+  
+  
+.parrafonostros{
+  font-size: $font-mobile-c;}
+  
+  
+.imgparrafo{
+  width: 100%;
+  height: 60%;
+  grid-area: imagen;
+  align-self: center;}
+
+  
+  
+.trabnos{
+  font-size: $font-mobile-c;}
+  
+  .enviarcv{
+    font-size: $font-mobile-b;}
+  
+  .imgmail{
+    width: 20px;
+    height: 20px;}
+  
+
+    
     
     }
