@@ -27,7 +27,7 @@ body{
   padding: $m1 $m1 $m1 $m1;}
 
 .mainruteobotona{
-  color:$bc-green;
+  color: map-get($boton, bg-c);
   text-decoration: none;}
 
 .divwhatsapp{  
@@ -59,7 +59,7 @@ body{
   @extend %flex_centrado;}
 
 .nuestrasespecialidadesh1{  
-  background-color: $bc-green;
+  background-color: map-get($boton, bg-c);
   color: $bc-yellow;
   padding: $m1 $m1 $m1 $m1;
   border-radius: $border-redondo;
@@ -159,7 +159,7 @@ body{
 .hacerpastascomoencasah2{
   font-family: $font-b;
   font-size: $font-b;
-  color: $bc-green;}
+  color: map-get($boton, bg-c);}
 
 .divpcomoencasa{
   @extend .divnuestrasespecialidades;
