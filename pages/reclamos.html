@@ -4,47 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quienes somos</title>
-    <meta name="description" content="conocé un poco más de Grazie Pastas">
-    <meta name="keywords" content="dueños,grazie,pastas,local,versalles,comida,">
+    <title>Reclamos</title>
+    <meta name="description" content="Hace tu reclamo por algún inconveniente con tu pedido">
+    <meta name="keywords" content="reclamos,devoluciones,reintegros,inconvenientes,problemas">
     <link rel="icon" href="../assets/img/iconos/logo-grazie.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/style.css">
-</head>
-<body class="bodyquienes-somos">
 
-  <header class="headerindex-quienessomos animate__rotateIn animate__flipInX">
+</head>
+<body class="bodyreclamos">
+    
+  
+  <header class="headerindex-quienessomos animate__animated animate__flipInX">
     <nav>
       <ol>
         <li><a href="../index.html">Grazie central</a></li>
-        <li><a href="./hace-tu-pedido-desktop.html">Hacé tu pedido</a></li>
-        <li><a href="./galeria-desktop.html">Galería</a></li>
-        <li><a href="./reclamos-desktop.html">Reclamos</a></li>
+        <li><a href="./hace-tu-pedido.html">Hacé tu pedido</a></li>
+        <li><a href="./galeria.html">Galería</a></li>
+        <li><a href="./quienes-somos.html">Quienes somos</a></li>
       </ol>
     </nav>
   </header>
+
   
-
-
-  <main class="grid-main">
-        <h1 class="nosotrosh1">Nosotros</h1>
-        <p class="parrafonostros">Somos una familia que siempre vivió en este hermoso barrio, y que tomo la decisión de emprender este camino hermoso como es la elaboración de pasta.
-            Trataremos de hacerles llegar una sensación única y hogareña en cada bocado, cargado de alegría y amor, ingrediente con el que hacemos todas nuestras elaboraciones.</p>
-        <img class="imgparrafo" src="../assets/img/quienes-somos/logo-grazie.png" alt="grazie_logo">    
-  </main>
-
-    <section class="grid-section-fotos">
-        <img  class="imgdenosotros img1" src="../assets/img/galeria/fabio-haciendo-pastas.jpeg" alt="fabio_pastas_caseras">
-        <img class="imgdenosotros img2" src="../assets/img/galeria/cristian-tirando-harina.jpeg" alt="cristian_pastas_caseras" >
-        <img class="imgdenosotros img3" src="../assets/img/galeria/grazie-desde-fuera.jpg" alt="grazie_local_fuera" >
-        <img class="imgdenosotros img4" src="../assets/img/galeria/postres-2.jpeg" alt="pastas_frescas">
+    <section class="sectionreclamo">
+      <button class="vercarrito margincarrito"><img class="imgreclamocarrito" src="../assets/img/iconos/icono-carrito-compras.png" alt=""><a class="letrascarrito" href="./hace-tu-pedido.html">volver al carrito</a></button>
     </section>
-        
-    <section class="section2quienes">
-        <h2 class="trabnos">¿Querés trabajar con nostros?</h2>
-          <a class="enviarcv" href="mailto:makeupholicok@gmail.com">Envianos tu cv a grazie@gmail.com</a>
-          <img class="imgmail" src="../assets/img/iconos/icono_mail.png" alt="mail_icono">
-    </section>
+
+    <main>
+    <div class="importante-reclamo">
+        <h1 class="h1-hace-tu-pedido">Importante</h1>
+          <p class="textoimportante">El reclamo será analizado por nuestro equipo de ventas. Recordá siempre tener fotos o videos de los productos en cuestión.
+          </p>
+      </div>
+      <form class="formularioreclamo" action="">
+        <fieldset class="fieldset2">
+            <legend class="completardatos">Completa tus datos</legend>
+              <label class="formulariolabel" for="nombre">Nombre</label>
+              <input class="tamañoforminput" type="text" name="nombre">
+              <br>
+              <label class="formulariolabel" for="apellido">Apellido</label>
+              <input class="tamañoforminput" type="text" name="apellido">
+              <br>
+              <label class="formulariolabel" for="direccion">Dirección</label>
+              <input class="tamañoforminput" type="text" name="dirección">
+              <br>
+              <label class="formulariolabel" for="piso/dpto">Piso/dpto</label>
+              <input class="tamañoforminput" type="text" name="piso/dpto">
+              <br>
+              <label class="formulariolabel"for="telefono">Teléfono</label>
+              <input class="tamañoforminput" type="text" name="telefono">
+              <br>
+              <label class="formulariolabel" for="dni">DNI</label>
+              <input class="tamañoforminput" type="text" name="dni">
+              <br>
+              <label class="formulariolabel" for="reclamo">Reclamo</label>
+              <input class="tamañoforminput2" type="text" name="reclamo">
+              <br>
+              <p class="max300">max. 300 caracteres</p>            
+        </fieldset>
+        <input class="iniciarcomprabuton" type="submit" value="Enviar reclamo">
+      </form>
+    </main>
 
     <footer class="footergaleria">       
       <div>
@@ -79,7 +100,7 @@
         <img class="imagen_footer" src="../assets/img/./iconos/icono_desarrollador.png" alt="Sebacab1096">
       </div>
   
-    </footer>
+  </footer>
     
 </body>
 </html>

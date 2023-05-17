@@ -37,6 +37,7 @@
   height: 80%;
   grid-area: imagen;
   align-self: center;}
+
   
 .grid-section-fotos{
   @include grid (grid, 100%, 20% 20% 20% 20%);

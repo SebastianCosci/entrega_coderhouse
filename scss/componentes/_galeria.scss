@@ -9,6 +9,7 @@
   margin-bottom: 8%;
   text-decoration: underline solid $bc-white;
   font-size: $font-xb;}
+
   
   
 .grid-armado{
@@ -44,6 +45,12 @@
 .imggaleria{
   width: 100%;
   height: 80%;}
+
+.imggaleria:hover{
+  transform: scale(1.3);
+  transition: all 2s;
+  border-radius: 100%;
+  border: solid $bc-yellow 5px;}
   
   
 .parrafogaleria{
