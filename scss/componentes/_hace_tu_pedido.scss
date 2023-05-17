@@ -65,6 +65,7 @@
 .imagen-gnochi{
   @include sizes (100%,200px);}
 
+
 .h3product{
   font-size: $font-m;
   text-align: center;
@@ -163,7 +164,8 @@
   box-shadow: 0 0 20px #324145;
   box-shadow: 0 0 50px #324145;
   box-shadow: 0 0 85px #324145;
-  box-shadow: 0 0 125px #324145;}
+  box-shadow: 0 0 125px #324145;
+  transform: scale(1.5);}
 
 .legend{
   font-size: $font-legend;
@@ -227,7 +229,9 @@
   margin-bottom: $m1;}
   
 .iniciarcomprabuton:hover{
-  background-color: $bc-green;}
+  background-color: $bc-green;
+  transform: scale(1.2);
+  transition: 0.8s;}
   
   
 .textoiniciarcompra{
