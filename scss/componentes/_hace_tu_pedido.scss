@@ -74,7 +74,8 @@
 .cantidad{
   justify-self: start;
   border: 0px;
-  grid-area: cantrelleno;}
+  grid-area: cantrelleno;
+  margin-left: $m2;}
   
 .formproducto{
   height: 110px;
@@ -111,9 +112,14 @@
   grid-area: fetuccine;}
 
 .card-body1{
-  @include grid (grid, 15% 35% 20% 30%, 100%,);
+  @include grid (grid, 15% 85%, 100%);
   grid-template-areas: 
   "titulopasta"
+  "formulario";}
+
+.formulario{
+  @include grid (grid, 40% 25% 35%, 100%);
+  grid-template-areas:
   "cantidadkg"
   "cantrelleno"
   "botonagregar";}
@@ -140,9 +146,10 @@
   width: 85%;}
   
 .tipodemasa{
-  justify-self: center;
+  justify-self: start;
   border:0px;
-  font-size: $font-s;}
+  font-size: $font-s;
+  margin-left: $m2;}
 
 .centraragregarcarrito{
   display: flex;
@@ -178,7 +185,8 @@
   margin-bottom: $m4;}
 
 .fieldset{
-  border: 0;}
+  border: 0;
+  margin-left: $m2;}
 
 .separarh2{
   margin-top: $m2;}
@@ -198,6 +206,9 @@
 
 .cantidad2{
   margin-bottom: $m5;}
+
+.centraragregarcarrito2{
+  margin-top: $m5;}
 
 .scarparoprod{
   grid-area: scarparo;}

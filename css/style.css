@@ -441,6 +441,7 @@ body {
   justify-self: start;
   border: 0px;
   grid-area: cantrelleno;
+  margin-left: 2%;
 }
 
 .formproducto {
@@ -490,9 +491,16 @@ body {
 
 .card-body1 {
   display: grid;
-  grid-template-rows: 15% 35% 20% 30%;
+  grid-template-rows: 15% 85%;
   grid-template-columns: 100%;
-  grid-template-areas: "titulopasta" "cantidadkg" "cantrelleno" "botonagregar";
+  grid-template-areas: "titulopasta" "formulario";
+}
+
+.formulario {
+  display: grid;
+  grid-template-rows: 40% 25% 35%;
+  grid-template-columns: 100%;
+  grid-template-areas: "cantidadkg" "cantrelleno" "botonagregar";
 }
 
 .nuestraspastassector {
@@ -521,9 +529,10 @@ body {
 }
 
 .tipodemasa {
-  justify-self: center;
+  justify-self: start;
   border: 0px;
   font-size: 15px;
+  margin-left: 2%;
 }
 
 .centraragregarcarrito {
@@ -565,6 +574,7 @@ body {
 
 .fieldset {
   border: 0;
+  margin-left: 2%;
 }
 
 .separarh2 {
@@ -589,6 +599,10 @@ body {
 
 .cantidad2 {
   margin-bottom: 10%;
+}
+
+.centraragregarcarrito2 {
+  margin-top: 10%;
 }
 
 .scarparoprod {
