@@ -26,7 +26,7 @@ header {
   box-shadow: 5px 5px 5px 5px;
   z-index: 4;
 }
-header nav ol {
+header nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -35,15 +35,15 @@ header nav ol {
   gap: 10%;
   padding-inline-start: 0px;
 }
-header nav ol li {
+header nav ul li {
   font-size: 30px;
 }
-header nav ol li a {
+header nav ul li a {
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: #324145;
 }
-header nav ol li a:hover {
+header nav ul li a:hover {
   color: #f4f0ea;
   transition: all 1s;
 }
@@ -1021,7 +1021,7 @@ body {
   header {
     align-items: center;
   }
-  header nav ol li {
+  header nav ul li {
     font-size: 10px;
   }
   /***reclamos***/
