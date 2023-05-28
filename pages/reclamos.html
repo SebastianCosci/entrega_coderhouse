@@ -37,33 +37,35 @@
           <p class="textoimportante">El reclamo será analizado por nuestro equipo de ventas. Recordá siempre tener fotos o videos de los productos en cuestión.
           </p>
       </div>
-      <form class="formularioreclamo" action="dataform.php">
+      <form class="formularioreclamo" action="dataform.php" method="get">
         <fieldset class="fieldset2">
             <legend class="completardatos">Completa tus datos</legend>
               <label class="formulariolabel" for="nombre">Nombre</label>
-              <input class="tamañoforminput" type="text" name="nombre">
+              <input class="tamañoforminput" type="text" name="nombre" required>
               <br>
               <label class="formulariolabel" for="apellido">Apellido</label>
-              <input class="tamañoforminput" type="text" name="apellido">
+              <input class="tamañoforminput" type="text" name="apellido" required>
               <br>
               <label class="formulariolabel" for="direccion">Dirección</label>
-              <input class="tamañoforminput" type="text" name="dirección">
+              <input class="tamañoforminput" type="text" name="dirección" required>
               <br>
               <label class="formulariolabel" for="piso/dpto">Piso/dpto</label>
-              <input class="tamañoforminput" type="text" name="piso/dpto">
+              <input class="tamañoforminput" type="text" name="piso/dpto" required>
               <br>
               <label class="formulariolabel"for="telefono">Teléfono</label>
-              <input class="tamañoforminput" type="text" name="telefono">
+              <input class="tamañoforminput" type="number" name="telefono" required>
               <br>
               <label class="formulariolabel" for="dni">DNI</label>
-              <input class="tamañoforminput" type="text" name="dni">
+              <input class="tamañoforminput" type="number" name="dni" required>
               <br>
               <label class="formulariolabel" for="reclamo">Reclamo</label>
-              <input class="tamañoforminput2" type="text" name="reclamo">
+              <input class="tamañoforminput2" type="textarea" name="reclamo" required>
               <br>
-              <p class="max300">max. 300 caracteres</p>            
+              <p class="max300">max. 300 caracteres</p>
+              <div class="centrarboton">
+                <input class="iniciarcomprabuton" type="submit" value="Enviar reclamo">
+              </div>
         </fieldset>
-        <input class="iniciarcomprabuton" type="submit" value="Enviar reclamo">
       </form>
     </main>
 

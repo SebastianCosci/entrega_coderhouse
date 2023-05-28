@@ -699,6 +699,11 @@ body {
   height: 200px;
 }
 
+.centrarboton {
+  display: flex;
+  justify-content: center;
+}
+
 .bodygaleria {
   background-image: url(../assets/img/fondos/fondo-index-logo-grazie.png);
 }
