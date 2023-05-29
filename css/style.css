@@ -940,10 +940,10 @@ body {
 @media (max-width: 480px) {
   /***footer***/
   footer div div h5 {
-    font-size: 8px;
+    font-size: 12px;
   }
   .li_seguinos_en_nuestras_redes {
-    font-size: 8px;
+    font-size: 12px;
   }
   .flexiframe {
     display: flex;
@@ -951,7 +951,7 @@ body {
     margin-right: 10%;
   }
   .spanfooter {
-    font-size: 8px;
+    font-size: 12px;
   }
   .imagen_footer {
     width: 10px;
@@ -971,7 +971,7 @@ body {
     border-width: 2px;
   }
   .desarrolladopor {
-    font-size: 8px;
+    font-size: 12px;
   }
   /**index**/
   .imagen-grazie {
@@ -982,7 +982,7 @@ body {
     padding: 0.5% 0.5% 0.5% 0.5%;
   }
   .mainruteobotona {
-    font-size: 14px;
+    font-size: 18px;
   }
   .divwhatsapp {
     margin-bottom: 2%;
@@ -1022,21 +1022,21 @@ body {
     align-items: center;
   }
   header nav ul li {
-    font-size: 10px;
+    font-size: 15px;
   }
   /***reclamos***/
   .letrascarrito {
-    font-size: 8px;
+    font-size: 12px;
   }
   .imgreclamocarrito {
     width: 10px;
     height: 10px;
   }
   .h1-hace-tu-pedido {
-    font-size: 26px;
+    font-size: 32px;
   }
   .textoimportante {
-    font-size: 14px;
+    font-size: 18px;
     margin: 0% 20% 0% 20%;
     text-align: justify;
   }
@@ -1044,10 +1044,10 @@ body {
     box-shadow: 0.5px 0.5px 0.5px 0.5px;
   }
   .completardatos {
-    font-size: 20px;
+    font-size: 26px;
   }
   .formulariolabel {
-    font-size: 14px;
+    font-size: 18px;
   }
   .tamañoforminput {
     height: 20px;
@@ -1056,20 +1056,20 @@ body {
     height: 60px;
   }
   .max300 {
-    font-size: 8px;
+    font-size: 12px;
   }
   .iniciarcomprabuton {
-    font-size: 20px;
+    font-size: 26px;
   }
   /***hace-tu-pedido***/
   .main-hace-tu-pedido {
     padding-top: 10%;
   }
   .search {
-    font-size: 12px;
+    font-size: 16px;
   }
   .volverainiciobuton {
-    font-size: 12px;
+    font-size: 16px;
   }
   .vercarrito {
     margin-top: 15%;
@@ -1079,7 +1079,7 @@ body {
     height: 130px;
   }
   .h3product {
-    font-size: 20px;
+    font-size: 26px;
   }
   .nuestraspastassector {
     display: grid;
@@ -1093,18 +1093,18 @@ body {
     margin-bottom: 30%;
   }
   .selector {
-    font-size: 14px;
+    font-size: 18px;
   }
   .tipodemasa {
     font-size: 10px;
   }
   .agregarcarrito {
-    font-size: 14px;
+    font-size: 18px;
   }
   .legend {
     -webkit-text-stroke: 0.2px;
     margin-bottom: 2%;
-    font-size: 14px;
+    font-size: 18px;
   }
   .inputhacetupedido {
     font-size: 9px;
@@ -1119,7 +1119,7 @@ body {
     margin-left: 5%;
   }
   .iniciarcomprabuton {
-    font-size: 20px;
+    font-size: 26px;
   }
   .grid-armado {
     display: grid;
@@ -1134,7 +1134,7 @@ body {
     height: 80%;
   }
   .parrafogaleria {
-    font-size: 14px;
+    font-size: 18px;
   }
   .imgmediospago {
     width: 20%;
@@ -1144,10 +1144,10 @@ body {
     margin-top: 10%;
   }
   .ancorefotos {
-    font-size: 14px;
+    font-size: 18px;
   }
   .arteh1 {
-    font-size: 26px;
+    font-size: 32px;
   }
   /***quienessomos***/
   .grid-main {
@@ -1156,10 +1156,10 @@ body {
     grid-template-columns: 30% 70%;
   }
   .nosotrosh1 {
-    font-size: 26px;
+    font-size: 32px;
   }
   .parrafonostros {
-    font-size: 14px;
+    font-size: 18px;
   }
   .imgparrafo {
     width: 100%;
@@ -1168,10 +1168,10 @@ body {
     align-self: center;
   }
   .trabnos {
-    font-size: 14px;
+    font-size: 18px;
   }
   .enviarcv {
-    font-size: 8px;
+    font-size: 12px;
   }
   .imgmail {
     width: 20px;
