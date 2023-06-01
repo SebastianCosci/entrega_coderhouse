@@ -982,7 +982,7 @@ body {
     padding: 0.5% 0.5% 0.5% 0.5%;
   }
   .mainruteobotona {
-    font-size: 16px;
+    font-size: 13px;
   }
   .divwhatsapp {
     margin-bottom: 2%;
@@ -1022,7 +1022,7 @@ body {
     align-items: center;
   }
   header nav ul li {
-    font-size: 15px;
+    font-size: 11px;
   }
   /***reclamos***/
   .letrascarrito {
@@ -1036,7 +1036,7 @@ body {
     font-size: 28px;
   }
   .textoimportante {
-    font-size: 16px;
+    font-size: 13px;
     margin: 0% 20% 0% 20%;
     text-align: justify;
   }
@@ -1047,7 +1047,7 @@ body {
     font-size: 24px;
   }
   .formulariolabel {
-    font-size: 16px;
+    font-size: 13px;
   }
   .tamañoforminput {
     height: 20px;
@@ -1093,18 +1093,18 @@ body {
     margin-bottom: 30%;
   }
   .selector {
-    font-size: 16px;
+    font-size: 13px;
   }
   .tipodemasa {
     font-size: 10px;
   }
   .agregarcarrito {
-    font-size: 16px;
+    font-size: 13px;
   }
   .legend {
     -webkit-text-stroke: 0.2px;
     margin-bottom: 2%;
-    font-size: 16px;
+    font-size: 13px;
   }
   .inputhacetupedido {
     font-size: 9px;
@@ -1134,7 +1134,7 @@ body {
     height: 80%;
   }
   .parrafogaleria {
-    font-size: 16px;
+    font-size: 13px;
   }
   .imgmediospago {
     width: 20%;
@@ -1144,7 +1144,7 @@ body {
     margin-top: 10%;
   }
   .ancorefotos {
-    font-size: 16px;
+    font-size: 13px;
   }
   .arteh1 {
     font-size: 28px;
@@ -1159,7 +1159,7 @@ body {
     font-size: 28px;
   }
   .parrafonostros {
-    font-size: 16px;
+    font-size: 13px;
   }
   .imgparrafo {
     width: 100%;
@@ -1168,7 +1168,7 @@ body {
     align-self: center;
   }
   .trabnos {
-    font-size: 16px;
+    font-size: 13px;
   }
   .enviarcv {
     font-size: 11px;
